@@ -9,7 +9,7 @@ import { StyledTetrisWrapper, StyledTetris } from "./styles/styledTetris";
 import { useInterval } from "../hooks/useInterval";
 import { usePlayer } from "../hooks/usePlayer";
 import { useStage } from "../hooks/useStage";
-import { useGamesStatus, useGameStatus } from "../hooks/useGameStatus";
+import { useGamesStatus } from "../hooks/useGameStatus";
 
 //components
 import Stage from "./stage";
@@ -21,7 +21,7 @@ const Tetris = () => {
   const [gameOver, setGameOver] = useState(false);
 
   const [player, updatePlayerPos, resetPlayer, playerRotate] = usePlayer();
-  const [stage, setStage, rowsCleared] = useStage(player);
+  const [stage, setStage, rowsCleared] = useStage(player, resetPlayer);
   const [score, setScore, rows, setRows, level, setLevel] = useGamesStatus(
     rowsCleared
   );
@@ -77,6 +77,7 @@ const Tetris = () => {
 
   const keyUp = ({ keyCode }) => {
     if (!gameOver) {
+      // Activate the interval again when user releases down arrow.
       if (keyCode === 40) {
         console.log("interval on");
         setDropTime(1000 / (level + 1) + 200);
@@ -85,6 +86,8 @@ const Tetris = () => {
   };
 
   const dropPlayer = () => {
+    // We don't need to run the interval when we use the arrow down to
+    // move the tetromino downwards. So deactivate it for now.
     console.log("interval off");
     setDropTime(null);
     drop();
