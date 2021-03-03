@@ -1,4 +1,19 @@
-# Getting Started with Create React App
+# React-Tetris
+
+<img src = "./public/Tetris_logo.png" width = 50% height = auto/>
+
+# Tetris
+
+<br>
+<img src = "./public/images.png" width = "90%" height = auto/>
+
+This was me creating a tetris game with react by following a youtube tutorial.
+
+## 📹 The youtube clip 📹
+
+https://www.youtube.com/watch?v=ZGOaCxX8HIU&t=3541s
+
+<!-- # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -67,5 +82,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 ### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# React-Tetris
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify) -->
