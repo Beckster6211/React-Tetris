@@ -13,5 +13,5 @@ export const StyledStartButton = styled.button`
   fontfamily: Pixel, Arial, Helvetica, sans-serif;
   fontsize: 1rem;
   outline: none;
-  cursor: "pointer";
+  cursor: pointer;
 `;
