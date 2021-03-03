@@ -1,11 +1,11 @@
 # React-Tetris
 
-<img src = "./public/Tetris_logo.png" width = "100px" height = "100px"/>
+<img src = "./public/Tetris_logo.png" width = 50% height = auto/>
 
 # Tetris
 
 <br>
-<img src = "./public/images.png" width = "400px" height = auto/>
+<img src = "./public/images.png" width = "90%" height = auto/>
 
 This was me creating a tetris game with react by following a youtube tutorial.
 
