@@ -8,7 +8,7 @@ export const createStage = () =>
 
 export const checkCollision = (player, stage, { x: moveX, y: moveY }) => {
   for (let y = 0; y < player.tetromino.length; y += 1) {
-    for (let x = 0; x < player.tetromino[0].length; x += 1) {
+    for (let x = 0; x < player.tetromino[y].length; x += 1) {
       //1. check on actual tetromino cell
       if (player.tetromino[y][x] !== 0) {
         if (
@@ -26,4 +26,6 @@ export const checkCollision = (player, stage, { x: moveX, y: moveY }) => {
       }
     }
   }
+  //5. if everything above is false
+  return false;
 };
