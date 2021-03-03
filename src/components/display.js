@@ -7,3 +7,13 @@ const Display = ({ gameOver, text }) => (
 );
 
 export default Display;
+
+//from his github worked with mine
+// import React from "react";
+// import { StyledDisplay } from "./styles/styledDisplay";
+
+// const Display = ({ gameOver, text }) => (
+//   <StyledDisplay gameOver={gameOver}>{text}</StyledDisplay>
+// );
+
+// export default Display;
