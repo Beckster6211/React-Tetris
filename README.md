@@ -73,7 +73,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 <img src = "./public/Tetris_logo.png" width = "100px" height = "100px"/>
 
-# Tetris <img src = "./public/Tetris_logo.png" width = "100px" height = "100px"/>
+# Tetris <img src = "./public/kisspng-tetris-friends-tetromino-puzzle-video-game-blocks-5ac230f8671498.3829720715226759604222.jpg" width = "100px" height = "100px"/>
 
 This was me creating a tetris game with react by following a youtube tutorial.
 
